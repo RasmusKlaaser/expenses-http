@@ -1,9 +1,7 @@
-import './App.css';
-import Expenses from"./Components/Expenses.js"
+import Expenses from "./Components/Expenses/Expenses";
 
-
-function App() {
-  const expenses = [
+const App = () => { 
+  const expenses =[ 
     {
       date: new Date(2023, 0, 10),
       title: "Harry Booter",
